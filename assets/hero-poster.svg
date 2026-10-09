@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1050" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="102" y1="96" x2="1064" y2="953" gradientUnits="userSpaceOnUse"><stop stop-color="#102D4A"/><stop offset=".53" stop-color="#0B1B2D"/><stop offset="1" stop-color="#061222"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(455 473 -452 435 613 495)" gradientUnits="userSpaceOnUse"><stop stop-color="#2C6591" stop-opacity=".5"/><stop offset="1" stop-color="#0B1A2C" stop-opacity="0"/></radialGradient>
+    <linearGradient id="metal" x1="164" y1="396" x2="1033" y2="741" gradientUnits="userSpaceOnUse"><stop stop-color="#F6FBFF"/><stop offset=".22" stop-color="#93A8B6"/><stop offset=".45" stop-color="#F9FCFE"/><stop offset=".7" stop-color="#A8B9C5"/><stop offset="1" stop-color="#E7EEF3"/></linearGradient>
+    <linearGradient id="sheet" x1="253" y1="594" x2="914" y2="915" gradientUnits="userSpaceOnUse"><stop stop-color="#D8E5ED"/><stop offset=".5" stop-color="#F7FAFC"/><stop offset="1" stop-color="#8299A8"/></linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0v80" stroke="#B9D7ED" stroke-opacity=".13"/></pattern>
+    <filter id="shadow" x="78" y="340" width="1057" height="636" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v1050H0z"/><path fill="url(#glow)" d="M0 0h1200v1050H0z"/><path fill="url(#grid)" d="M0 0h1200v1050H0z"/>
+  <path d="m198 701 380-326 536 116-385 338-531-128Z" fill="#000" fill-opacity=".52" filter="url(#shadow)"/>
+  <path d="m160 645 381-306 551 123-376 319-556-136Z" fill="url(#metal)" stroke="#FFF" stroke-opacity=".78" stroke-width="3"/>
+  <path d="m160 645 556 136v33L160 679v-34Zm381-306v34l551 123v-34L541 339Z" fill="#748B9A"/>
+  <path d="m246 626 381-305m-280 331 381-306m-278 333 381-306m-279 331 381-304" stroke="#FFF" stroke-opacity=".38" stroke-width="4"/>
+  <path d="m236 817 121-106 470 112-121 111-470-117Z" fill="url(#sheet)" fill-opacity=".8" stroke="#F8FCFF" stroke-opacity=".58" stroke-width="2"/>
+  <path d="m807 823 102-81 95 22-103 83-94-24Z" fill="#DAE6EC" fill-opacity=".83" stroke="#FFF" stroke-opacity=".56" stroke-width="2"/>
+  <circle cx="1018" cy="186" r="5" fill="#65B4FF"/><circle cx="1018" cy="186" r="20" stroke="#65B4FF" stroke-opacity=".3"/>
+</svg>
