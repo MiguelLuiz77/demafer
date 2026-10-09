@@ -360,6 +360,40 @@ button { font: inherit; }
   .footer-brand-block { grid-column: 1 / -1; }
   .footer-cta { grid-column: 1 / -1; }
   .footer-bottom-inner { min-height: 55px; align-items: flex-start; flex-direction: column; justify-content: center; gap: 5px; font-size: 9px; }
+
+  body { background: #fff; }
+  .site-header { color: var(--ink); background: rgba(255,255,255,.96); border-bottom-color: rgba(12,34,57,.1); }
+  .brand img { border-color: rgba(12,34,57,.12); }
+  .brand-copy strong { color: var(--navy); }
+  .brand-copy small { color: #647487; }
+  .menu-toggle { border-color: #d6e0e8; color: var(--ink); background: #fff; }
+  .menu-toggle span { background: #21384d; }
+  .primary-nav { border-bottom-color: #e1e7ec; background: rgba(255,255,255,.99); box-shadow: 0 20px 30px rgba(15,43,65,.12); }
+  .primary-nav > a:not(.button) { color: #33495d; border-bottom-color: #e8edf1; }
+  .material-ribbon, .products-section, .about-section, .instagram-section,
+  .reviews-section, .location-section, .closing-section, .site-footer { background: #fff; }
+  .material-ribbon { color: #42596e; border-color: #e1e7ec; }
+  .material-ribbon .ribbon-inner i { background: #6da5d8; }
+  .about-section { color: var(--ink); }
+  .instagram-section { color: var(--ink); }
+  .instagram-section::before, .closing-section::before { display: none; }
+  .instagram-copy .eyebrow, .closing-copy .eyebrow { color: #54708c; }
+  .instagram-copy > p:not(.eyebrow), .instagram-handle { color: #647487; }
+  .instagram-glyph { border-color: #cbd9e5; color: #2478cf; }
+  .reviews-section { color: var(--ink); }
+  .location-section { color: var(--ink); }
+  .closing-section { color: var(--ink); }
+  .closing-copy > p:not(.eyebrow), .objection-list { color: #52677a; }
+  .objection-list i { color: #2671b7; background: #e7f1f8; }
+  .site-footer { color: #52677a; border-top: 1px solid #e3e9ed; }
+  .footer-brand .brand-copy strong, .footer-column h2 { color: #183047; }
+  .footer-brand-block > p, .footer-column a, .footer-address address { color: #647789; }
+  .footer-column a:hover, .footer-social:hover, .footer-route:hover { color: #1f6fb4; }
+  .footer-cta { border-color: #dce5eb; background: #f7f9fa; }
+  .footer-cta p { color: #52677a; }
+  .footer-bottom { border-top-color: #e1e7ec; }
+  .footer-bottom-inner { color: #728293; }
+  .footer-bottom-inner a { color: #52677a; }
 }
 
 @media (max-width: 390px) {
